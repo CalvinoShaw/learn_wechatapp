@@ -1,0 +1,6 @@
+<view class="collection">
+  <view class="box_outlet box_radius box_shadow">
+    <view class="summary_title summary_text">{{summary_title}}</view>
+    <view class="summary_content summary_text">{{summary_content}}</view>
+  </view>
+</view>

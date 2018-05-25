@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "反馈",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false,
+  "disableScroll": false,
+  "onReachBottomDistance": 50
+}

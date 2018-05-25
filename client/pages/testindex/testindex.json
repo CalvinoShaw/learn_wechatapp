@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "海晏河清",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false,
+  "disableScroll": false,
+  "onReachBottomDistance": 50
+}

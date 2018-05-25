@@ -1,0 +1,8 @@
+<view class="section">
+  <view class="box_outlet box_radius box_shadow">
+    <view class="title">{{title}}</view>
+    <view class='time text'>{{time}}</view>
+    <view class='organize text'>{{organize}}</view> 
+    <view class="content text">{{content}}</view>
+  </view>
+</view>
