@@ -1,10 +1,9 @@
 {
     "pages": [
-        "pages/testindex/testindex",
+        "pages/index/index",
         "pages/collection/collection",
         "pages/detail/detail",
-        "pages/index/index",
-        "pages/chat/chat"
+        "pages/feedback/feedback"
     ],
     "window": {
         "backgroundTextStyle": "light",

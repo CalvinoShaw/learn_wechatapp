@@ -4,17 +4,36 @@ Page({
    * 页面的初始数据
    */
   data: {
-    title: '《中国共产党章程》',
-    time: '2018-02-03',
-    organize: '全国人民代表大会',
-    content: '第一章 总 则 第一条　为坚持党的领导，加强党的建设，全面从严治党，强化党内监督，保持党的先进性和纯洁性，根据《中国共产党章程……',
+    file: {
+      id: 'init data',
+      title: 'init data',
+      time: 'init data',
+      organize: 'init data',
+      summary: 'init data',
+      content: 'init data',
+    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    var singlefileid = getApp().singlefileid;
+    var that = this
+    wx.request({
+      url: 'https://0gwlwiqm.qcloud.la/weapp/demo',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      success: function (res) {
+        that.setData({
+          'file': res.data.data.file[singlefileid]
+        })
+      },
+      fail: function (res) {
+        console.log("failed")
+      }
+    })
   },
 
   /**
