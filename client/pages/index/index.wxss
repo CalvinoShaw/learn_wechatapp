@@ -58,6 +58,7 @@ background: linear-gradient(to right, transparent, #fff 55%);
 
 .feedback{
   padding-top: 15px;
+  padding-bottom: 40px;
   text-align: center;
   font-size: 12px;
   color: #37a;

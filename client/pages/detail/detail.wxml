@@ -5,4 +5,6 @@
     <view class='organize text'>{{file.organization}}</view> 
     <view class="content text">{{file.content}}</view>
   </view>
+
+  <view class="feedback" bindtap='tofeedback'>我要反馈</view>
 </view>

@@ -5,12 +5,12 @@ Page({
    */
   data: {
     file: {
-      id : 'init data',
-      title: 'init data',
-      time: 'init data',
-      organize: 'init data',
-      summary: 'init data',
-      content: 'init data',
+      id : '',
+      title: '',
+      time: '',
+      organize: '',
+      summary: '',
+      content: '',
     },
   },
 
