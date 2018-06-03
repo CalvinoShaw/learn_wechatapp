@@ -1,38 +1,43 @@
 @import "../../lib/weui.wxss";
 
-.text{
-   margin-left: 15px;
-   margin-right: 15px; 
+.text {
+  margin-left: 15px;
+  margin-right: 15px;
 }
-.title{
+
+.title {
   padding-top: 10px;
   text-align: center;
   font-size: 24px;
 }
-.content{
+
+.content {
   font-size: 14px;
   padding-top: 8px;
-  /* margin-top: 15px; */
 }
-.time{
-  text-align: center; 
+
+.time {
+  text-align: center;
   font-size: 16px;
-  color: #888
+  color: #888;
 }
-.organize{
-  text-align: center; 
+
+.organize {
+  text-align: center;
   font-size: 14px;
-  color: #888
+  color: #888;
 }
 
 .box_outlet {
   margin: 15px;
-  height: 1200px;
+  height: auto;
 }
+
 .box_shadow {
   box-shadow: 2px 2px 15px #e6d2d5;
 }
+
 .box_radius {
-  border:2px #888;
-  border-radius:10px;
+  border: 2px #888;
+  border-radius: 10px;
 }
