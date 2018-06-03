@@ -45,16 +45,16 @@ Page({
         'Content-Type': 'application/json'
       },
       success: function (res) {
-        let file = res.data.data.file
-        file.forEach((item) => {
-          item.title = item.title.substring(0, 18) + "...",
-          item.content = item.content.substring(0, 65) + "..."
-        })
+        // let file = res.data.data.file
+        // file.forEach((item) => {
+        //   item.title = item.title.substring(0, 18) + "...",
+        //   item.content = item.content.substring(0, 65) + "..."
+        // })
         // console.log(res.data)
         // 将获取到的json数据，存在这个数组中
         // res代表success函数的事件对，data是固定的，stories是是上面json数据中stories
         that.setData({
-          'file' : file,
+          'file': res.data.data.file,
           // 'file.content': res.data.data.file.content.substring(0,100)
         })
         // console.log(JSON.stringify(that.data.file))

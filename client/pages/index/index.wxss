@@ -12,14 +12,32 @@
 }
 .title{
   padding-top: 10px;
-  font-size: 16px
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
 }
 .content{
   font-size: 14px;
   color: #888;
   padding-top: 8px;
-  /* margin-left: 15px;  */
+  /* 多行超出文本省略号 */
+   display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  overflow: hidden; 
 }
+
+/* 多行超出文本省略号：方法二 */
+/* .content{position: relative; line-height: 20px; max-height: 40px;overflow: hidden;}
+.content::after{content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px;
+background: -webkit-linear-gradient(left, transparent, #fff 55%);
+background: -o-linear-gradient(right, transparent, #fff 55%);
+background: -moz-linear-gradient(right, transparent, #fff 55%);
+background: linear-gradient(to right, transparent, #fff 55%);
+} */
+
+
 .time{
   /* text-align: right; */
   font-size: 12px;
